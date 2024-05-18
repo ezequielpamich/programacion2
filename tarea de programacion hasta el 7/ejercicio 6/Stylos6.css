@@ -1,0 +1,52 @@
+/* Estilo para el botón */
+.boton {
+    position: relative;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Utiliza un pseudo-elemento para agregar el texto "Pasa por encima" */
+.boton::after {
+    content: "Pasa por encima";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none; /* Asegura que el texto no interfiera con los eventos del botón */
+}
+
+/* Utiliza pseudo-clases para cambiar el color del texto y el fondo del botón cuando se pase el ratón por encima */
+.boton:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Reemplaza el texto "Tócame" por "Pasa por encima" cuando se pasa el ratón por encima del botón */
+.boton:hover::after {
+    opacity: 1;
+}
+
+.boton:hover {
+    color: transparent;
+}
+
+/* Utiliza un pseudo-elemento para cambiar el texto del botón a "¡Hecho!" cuando se active */
+.boton:active::after {
+    content: "¡Hecho!";
+    opacity: 1;
+}
+
+/* Esconde el texto original cuando el botón está activo */
+.boton:active {
+    color: transparent;
+}

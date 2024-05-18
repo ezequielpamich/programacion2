@@ -1,0 +1,18 @@
+/* Estilo para el contenedor de la galería */
+.flex-container {
+    display: flex; /* Flexbox para organizar las imagenes */
+    flex-wrap: wrap; /* Permite que los elementos se reorganicen en nuevas filas */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+/* Estilo para las imágenes */
+.flex-container img{
+    width: 300px;
+    height: auto; /* Mantiene la proporción de la imagen */
+    border: 2px solid #ccc; /* Añade un borde gris claro */
+    border-radius: 8px; /* Redondea los bordes de las imágenes */
+    transition: transform 0.3s; /* Añade una transición suave para el efecto hover */
+
+}
