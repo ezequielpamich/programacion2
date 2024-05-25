@@ -1,0 +1,32 @@
+header {
+    
+    background-color: blue;
+    padding: 2px;
+    color: blueviolet;
+    text-align: right;
+}
+nav{
+    margin-top: 50px;
+
+    background-color: white;
+    padding: 7px;
+}
+
+nav a{
+    padding: 2%;
+    text-align: justify;
+}
+nav a:hover{
+    
+
+    background-color: green;
+
+}
+footer{
+    margin: 50px;
+
+    background-color: rebeccapurple;
+}
+
+
+
