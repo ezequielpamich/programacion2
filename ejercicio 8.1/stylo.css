@@ -1,0 +1,124 @@
+/* Estilo para el contenedor flex */
+.flex-container {
+    display: flex; /* Convierte el contenedor en un contenedor flex */
+    flex-direction: row; /* Los elementos se organizan en una fila */
+    justify-content: space-around; /* Espacio alrededor de cada elemento */
+    align-items: center; /* Alinea los elementos en el centro del eje transversal */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en múltiples líneas si es necesario */
+    height: 200px; /* Altura del contenedor */
+    border: 2px solid black; /* Borde del contenedor */
+}
+
+/* Estilo para los elementos flex */
+.flex-item {
+    background-color: lightblue; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+    margin: 5px; /* Margen entre los elementos */
+    border: 1px solid blue; /* Borde de los elementos */
+    flex-grow: 1; /* Permite que los elementos crezcan para llenar el espacio disponible */
+    flex-basis: 100px; /* Tamaño base de los elementos */
+    align-self: center; /* Alinea cada elemento individualmente en el centro del eje transversal */
+}
+
+.flex-container1 {
+    display: flex; /* Convierte el contenedor en un contenedor flex */
+    flex-direction: row; /* Los elementos se organizan en una fila */
+    justify-content: space-around; /* Espacio alrededor de cada elemento */
+    align-items: center; /* Alinea los elementos en el centro del eje transversal */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en múltiples líneas si es necesario */
+    height: 200px; /* Altura del contenedor */
+    border: 3px solid rgb(255, 0, 255); /* Borde del contenedor */
+    background-color: rgb(245, 160, 160);
+    
+}
+
+.flex-item1 {
+    background-color: lightgreen; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+    margin: 5px; /* Margen entre los elementos */
+    border: 1px solid green; /* Borde de los elementos */
+    flex-grow: 1; /* Permite que los elementos crezcan para llenar el espacio disponible */
+    flex-basis: 100px; /* Tamaño base de los elementos */
+    align-self: center; /* Alinea cada elemento individualmente en el centro del eje transversal */
+    color: crimson;
+    text-shadow: 3px 5px crimson;
+
+}
+
+
+.flex-container2 {
+    display: flex; /* Convierte el contenedor en un contenedor flex */
+    flex-direction: row; /* Los elementos se organizan en una fila */
+    justify-content: space-around; /* Espacio alrededor de cada elemento */
+    align-items: center; /* Alinea los elementos en el centro del eje transversal */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en múltiples líneas si es necesario */
+    height: 200px; /* Altura del contenedor */
+    border: 2px solid rgb(32, 54, 124); /* Borde del contenedor */
+    background-color: rgb(112, 112, 235);
+}
+
+/* Estilo para los elementos flex */
+.flex-item2 {
+    background-color: rgb(255, 197, 88); /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+    margin: 5px; /* Margen entre los elementos */
+    border: 1px solid orange; /* Borde de los elementos */
+    flex-grow: 1; /* Permite que los elementos crezcan para llenar el espacio disponible */
+    flex-basis: 100px; /* Tamaño base de los elementos */
+    align-self: center; /* Alinea cada elemento individualmente en el centro del eje transversal */
+    color: chartreuse;
+    text-shadow: 3px 5px chartreuse;
+}
+
+
+.flex-container3 {
+    display: flex; /* Convierte el contenedor en un contenedor flex */
+    flex-direction: row; /* Los elementos se organizan en una fila */
+    justify-content: space-around; /* Espacio alrededor de cada elemento */
+    align-items: center; /* Alinea los elementos en el centro del eje transversal */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en múltiples líneas si es necesario */
+    height: 200px; /* Altura del contenedor */
+    border: 2px solid lawngreen; /* Borde del contenedor */
+    background-color: rgb(255, 80, 80);
+}
+
+/* Estilo para los elementos flex */
+.flex-item3 {
+    background-color: chocolate; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+    margin: 5px; /* Margen entre los elementos */
+    border: 1px solid orange; /* Borde de los elementos */
+    flex-grow: 1; /* Permite que los elementos crezcan para llenar el espacio disponible */
+    flex-basis: 100px; /* Tamaño base de los elementos */
+    align-self: center; /* Alinea cada elemento individualmente en el centro del eje transversal */
+    color: brown;
+    text-shadow: 3px 5px brown;
+
+}
+
+
+.flex-container4 {
+    display: flex; /* Convierte el contenedor en un contenedor flex */
+    flex-direction: row; /* Los elementos se organizan en una fila */
+    justify-content: space-around; /* Espacio alrededor de cada elemento */
+    align-items: center; /* Alinea los elementos en el centro del eje transversal */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en múltiples líneas si es necesario */
+    height: 200px; /* Altura del contenedor */
+    border: 2px solid blueviolet; /* Borde del contenedor */
+    background-color: lightseagreen;
+    
+}
+
+/* Estilo para los elementos flex */
+.flex-item4 {
+    background-color: firebrick; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+    margin: 5px; /* Margen entre los elementos */
+    border: 1px solid khaki; /* Borde de los elementos */
+    flex-grow: 1; /* Permite que los elementos crezcan para llenar el espacio disponible */
+    flex-basis: 100px; /* Tamaño base de los elementos */
+    align-self: center; /* Alinea cada elemento individualmente en el centro del eje transversal */
+    color: cadetblue;
+    text-shadow: 3px 5px cadetblue;
+
+}
