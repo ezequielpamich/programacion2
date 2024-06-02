@@ -1,0 +1,38 @@
+.caja1 {
+    border: 5px solid red;
+    margin: 10px;
+    
+  }
+  .caja2 {
+    border: 5px solid blue;
+    margin: 10px;
+    padding: 25px;
+    
+  }
+  .caja3 {
+    border: 5px solid green;
+    margin: 10px;
+    padding: 50px;
+    
+  }
+
+  .caja4 {
+    border: 5px solid violet;
+    margin: 10px;
+    padding: 50px;
+    
+  }
+
+  .caja5 {
+    border: 5px solid black;
+    margin: 10px;
+    padding: 50px;
+    
+  }
+
+  .caja6 {
+    border: 5px solid brown;
+    margin: 10px;
+    padding: 50px;
+    
+  }
