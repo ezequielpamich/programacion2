@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex; /* Convierte el contenedor en un contenedor flex */
+    flex-direction: row; /* Los elementos se organizan en una fila */
+    justify-content: flex-start; /* Espacio alrededor de cada elemento */
+    align-items: center; /* Alinea los elementos en el centro del eje transversal */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en múltiples líneas si es necesario */
+    height: 200px; /* Altura del contenedor */
+    border: 2px solid black; /* Borde del contenedor */
+    position: relative;
+}
+
+/* Estilo para los elementos flex */
+.flex-item {
+    background-color: lightblue; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+    margin: 5px; /* Margen entre los elementos */
+    border: 1px solid blue; /* Borde de los elementos */
+    flex-grow: 1; /* Permite que los elementos crezcan para llenar el espacio disponible */
+    flex-basis: 100px; /* Tamaño base de los elementos */
+    align-self: center; /* Alinea cada elemento individualmente en el centro del eje transversal */
+}
+ 
+.absoluto {
+    background-color: lightblue; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+    margin: 5px; /* Margen entre los elementos */
+    border: 1px solid blue; /* Borde de los elementos */
+    flex-grow: 1; /* Permite que los elementos crezcan para llenar el espacio disponible */
+    flex-basis: 100px; /* Tamaño base de los elementos */
+    align-self: center; /* Alinea cada elemento individualmente en el centro del eje transversal */
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+
+}
+
+
+  
