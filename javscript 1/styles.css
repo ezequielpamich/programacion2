@@ -1,0 +1,45 @@
+/* styles.css */
+
+/* Estilos personalizados para el Centro de Atención Médica */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Tonos de naranja */
+.bg-orange-light {
+  background-color: #f9c2a1;
+}
+
+.bg-orange-dark {
+  background-color: #e67e22;
+}
+
+/* Navbar */
+.navbar-dark .navbar-brand {
+  color: #ffffff;
+}
+.navbar-dark .nav-link {
+  color: #ffffff;
+}
+.navbar-dark .nav-link:hover {
+  color: #f9c2a1;
+}
+
+/* Jumbotron */
+.jumbotron {
+  color: #ffffff;
+  padding: 100px 25px;
+  margin-bottom: 0;
+}
+
+/* Card */
+.card {
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #e67e22;
+  padding: 10px 0;
+}
+ 

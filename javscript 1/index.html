@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centro de Atención Médica</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Centro Médico</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#doctores">Doctores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div id="inicio" class="jumbotron jumbotron-fluid bg-orange-light">
+    <div class="container">
+      <h1 class="display-4">Bienvenido al Centro de Atención Médica</h1>
+      <p class="lead">Brindamos cuidado de salud de alta calidad para ti y tu familia.</p>
+    </div>
+  </div>
+
+  <!-- Servicios -->
+  <div id="servicios" class="container">
+    <h2 class="text-center mb-4">Nuestros Servicios</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/espana-cantera-de-medicos-de-europa_42d6.webp" class="card-img-top" alt="Consulta General">
+          <div class="card-body">
+            <h5 class="card-title">Consulta General</h5>
+            <p class="card-text">Ofrecemos consultas generales para todas las edades.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/f.elconfidencial.com_original_8db_8b6_aa5_8db8b6aa54b585253e15f79a68447aeb.jpg" class="card-img-top" alt="Pediatría">
+          <div class="card-body">
+            <h5 class="card-title">Pediatría</h5>
+            <p class="card-text">Especialistas en el cuidado de la salud de los niños.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/download.jpg" class="card-img-top" alt="Ginecología">
+          <div class="card-body">
+            <h5 class="card-title">Ginecología</h5>
+            <p class="card-text">Atención especializada para la salud de la mujer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Doctores -->
+  <div id="doctores" class="container mt-5">
+    <h2 class="text-center mb-4">Nuestros Doctores</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/images.jpg" class="card-img-top" alt="Dr. Juan Pérez">
+          <div class="card-body">
+            <h5 class="card-title">Dr. Juan Pérez</h5>
+            <p class="card-text">Especialista en Medicina General</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/img2.rtve.jpg" class="card-img-top" alt="Dra. María López">
+          <div class="card-body">
+            <h5 class="card-title">Dra. María López</h5>
+            <p class="card-text">Especialista en Pediatría</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/medico-cirugia-operacion-medicos-doctorjpg.webp" class="card-img-top" alt="Dra. Ana Martínez">
+          <div class="card-body">
+            <h5 class="card-title">Dra. Ana Martínez</h5>
+            <p class="card-text">Especialista en Ginecología</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contacto -->
+  <div id="contacto" class="container mt-5 mb-5">
+    <h2 class="text-center mb-4">Contacto</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h5>Dirección</h5>
+        <p>Calle Falsa 123, Ciudad, País</p>
+        <h5>Teléfono</h5>
+        <p>(123) 456-7890</p>
+        <h5>Email</h5>
+        <p>info@centromedico.com</p>
+      </div>
+      <div class="col-md-6">
+        <h5>Horario de Atención</h5>
+        <p>Lunes a Viernes: 8:00 AM - 6:00 PM</p>
+        <p>Sábado: 8:00 AM - 2:00 PM</p>
+        <p>Domingo: Cerrado</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center text-lg-start">
+    <div class="container p-4">
+      <p class="text-center">© 2024 Centro de Atención Médica. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
+
